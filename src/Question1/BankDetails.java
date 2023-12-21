@@ -1,7 +1,7 @@
 /* Create a bank application 
 •	Where user get deposit their amount.
 •	Withdraw their amount.
-•	Three type of account they can chose.  (Saving, current, demat)
+•	Three type of account they can chose. (Saving, current, demat)
 •	Make a separate section for F.D where user can deposit money for fix time period.
 •	Use oops concept for creating this application.
 •	You must show the current balance for user. When he performed deposit and withdraw.
@@ -21,7 +21,7 @@ class BankDetails{
     Scanner scanner = new Scanner(System.in);
 
     //Constructor to assign null values to the instance variables
-    public BankDetails() {
+    public BankDetails(){
         this.balance = 0;
         this.accountType = null;
         this.acc_no = null;
