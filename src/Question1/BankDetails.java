@@ -11,7 +11,7 @@ package Question1;
 import java.util.Scanner;
 
 class BankDetails{
-    //Initialization of instance variables
+    //Initialization of instance variables chech test
     private double balance;
     private String accountType;
     private String name;
